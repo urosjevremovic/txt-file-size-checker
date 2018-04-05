@@ -1,7 +1,7 @@
 import sys
 
 
-def analyze_text(filename=sys.argv[1]):
+def analyze_text(filename):
     """Calculate the number of lines, words and characters in a file
 
     Args:
@@ -28,5 +28,9 @@ def analyze_text(filename=sys.argv[1]):
     print(f"Total number of characters in a text file is {characters}\n")
 
 
+def main():
+    analyze_text(filename=sys.argv[1])
+
+
 if __name__ == '__main__':
-    analyze_text()
+    analyze_text(filename=sys.argv[1])

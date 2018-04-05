@@ -31,7 +31,7 @@ setup(name='TextFileSizeChecker',
       author_email='jevremovic.uros91@gmail.com',
       packages=['TextFileSizeChecker'],
       entry_points={
-          "console_scripts": ["size-checker=TextFileSizeChecker.txt_file_size_checker:analyze_text"],
+          "console_scripts": ["size-checker=TextFileSizeChecker.txt_file_size_checker:main"],
       },
       )
 
