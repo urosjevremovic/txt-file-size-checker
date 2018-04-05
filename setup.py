@@ -34,9 +34,10 @@ And run it by typing
 from setuptools import setup
 
 setup(name='txt-file-size-checker',
-      version='0.1',
+      version='0.2',
       description='Calculate the number of lines, words and characters in a text file',
-      ling_description=__doc__,
+      long_description=__doc__,
+      url="https://github.com/urosjevremovic/txt-file-size-checker",
       licence='MIT',
       author='Uros Jevremovic',
       author_email='jevremovic.uros91@gmail.com',
