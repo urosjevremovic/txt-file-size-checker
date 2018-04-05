@@ -26,4 +26,5 @@ And run it by typing
 ----
 
 .. code:: bash
+
     $ python3 txt-file-size-checker.py 'name_of_txt_file_to_read'
