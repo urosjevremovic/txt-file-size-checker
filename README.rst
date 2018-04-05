@@ -1,5 +1,5 @@
 Text-file-size-checker
-----
+-------------
 
 Simple script for calculating the number of lines, words and
 characters in a text file
@@ -16,14 +16,14 @@ Returns:
     third element is the number of characters.
 
 You can install it with
-----
+-------------
 
 .. code:: bash
 
     $ pip install txt-file-size-checker
 
 And run it by typing
-----
+-------------
 
 .. code:: bash
 
