@@ -17,12 +17,14 @@ Returns:
     third element is the number of characters.
 
 You can install it with
+-------------
 
 .. code:: bash
 
     $ pip install txt-file-size-checker
 
 And run it by typing
+-------------
 
 .. code:: bash
 
@@ -33,7 +35,7 @@ And run it by typing
 from setuptools import setup
 
 setup(name='txt-file-size-checker',
-      version='0.5',
+      version='1.0',
       description='Calculate the number of lines, words and characters in a text file',
       long_description=__doc__,
       url="https://github.com/urosjevremovic/txt-file-size-checker",
