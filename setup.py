@@ -7,13 +7,9 @@ characters in a text file.
 
 You can get it by downloading it directly or by typing:
 
-.. code:: bash
-
     $ pip install TextFile_SizeChecker
 
 After it is installed you can start it by simply typing in your terminal:
-
-.. code:: bash
 
     $ size-checker 'name_of_txt_file_to_read'
 
@@ -23,10 +19,12 @@ After it is installed you can start it by simply typing in your terminal:
 from setuptools import setup
 
 setup(name='TextFile_SizeChecker',
-      version='1.0',
+      version='0.4',
       description='Calculate the number of lines, words and characters in a text file',
       long_description=__doc__,
+      long_description_content_type='text/markdown',
       url="https://github.com/urosjevremovic/txt-file-size-checker",
+      license='MIT',
       author='Uros Jevremovic',
       author_email='jevremovic.uros91@gmail.com',
       packages=['TextFileSizeChecker'],
