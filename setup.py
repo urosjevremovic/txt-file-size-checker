@@ -9,7 +9,7 @@ You can get it by downloading it directly or by typing:
 
 .. code:: bash
 
-    $ pip install TextFileSizeChecker
+    $ pip install TextFile_SizeChecker
 
 After it is installed you can start it by simply typing in your terminal:
 
@@ -22,7 +22,7 @@ After it is installed you can start it by simply typing in your terminal:
 
 from setuptools import setup
 
-setup(name='TextFileSizeChecker',
+setup(name='TextFile_SizeChecker',
       version='1.0',
       description='Calculate the number of lines, words and characters in a text file',
       long_description=__doc__,
