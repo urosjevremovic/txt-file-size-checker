@@ -23,7 +23,7 @@ After it is installed you can start it by simply typing in your terminal:
 from setuptools import setup
 
 setup(name='TextFileSizeChecker',
-      version='1.2',
+      version='1.0',
       description='Calculate the number of lines, words and characters in a text file',
       long_description=__doc__,
       url="https://github.com/urosjevremovic/txt-file-size-checker",
